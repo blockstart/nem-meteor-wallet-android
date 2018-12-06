@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/selectMosaicImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mosaic_default_image" />
+
+    <TextView
+        android:id="@+id/selectMosaicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/source_sans_pro_bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/selectMosaicImage"
+        app:layout_constraintStart_toEndOf="@+id/selectMosaicImage"
+        app:layout_constraintTop_toTopOf="@+id/selectMosaicImage"
+        tools:text="Cache" />
+
+    <ImageView
+        android:id="@+id/selectMosaicSelectedCheck"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/selectMosaicName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/selectMosaicName"
+        app:srcCompat="@drawable/dropdown_checkmark" />
+</android.support.constraint.ConstraintLayout>

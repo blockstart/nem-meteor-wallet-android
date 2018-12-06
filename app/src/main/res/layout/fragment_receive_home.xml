@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/receiveFragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="?android:attr/actionBarSize"
+    android:background="@color/white"
+    tools:context=".view.receiveTransaction.ReceiveHomeFragment">
+
+    <ImageView
+        android:id="@+id/qrImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/qr_image_view"
+        android:scaleType="fitXY"
+        android:src="@drawable/block_blue_btn"
+        app:layout_constraintBottom_toTopOf="@+id/copyAddressBtn"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mosaicBalanceInReceive" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="@string/balance"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mosaicSelectorViewInclude" />
+
+    <TextView
+        android:id="@+id/mosaicBalanceInReceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="750 XEM" />
+
+    <Button
+        android:id="@+id/sendPaymentRequestBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/block_blue_stroke_btn"
+        android:fontFamily="@font/source_sans_pro_bold"
+        android:text="@string/send_payment_request"
+        android:textColor="@color/blockBlue"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/copyAddressBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/block_blue_stroke_btn"
+        android:fontFamily="@font/source_sans_pro_bold"
+        android:text="@string/copy_address"
+        android:textColor="@color/blockBlue"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/sendPaymentRequestBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/block_blue_btn"
+        android:fontFamily="@font/source_sans_pro_bold"
+        android:gravity="center_vertical"
+        android:text="@string/address_copied"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/copyAddressBtn"
+        app:layout_constraintEnd_toEndOf="@+id/copyAddressBtn"
+        app:layout_constraintStart_toStartOf="@+id/copyAddressBtn"
+        app:layout_constraintTop_toTopOf="@+id/copyAddressBtn" />
+
+    <include
+        android:id="@+id/mosaicSelectorViewInclude"
+        layout="@layout/mosaic_selector_include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Cache Wallet</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_send">Send</string>
+    <string name="title_receive">Receive</string>
+    <string name="title_settings">Settings</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="title_my_crypto">My Currencies</string>
+    <string name="transactions_title">Transactions</string>
+    <string name="transaction_recipient">To: %s</string>
+    <string name="transaction_message">Message: %s</string>
+    <string name="import_wallet">Import Wallet</string>
+    <string name="create_new_wallet">Create New Wallet</string>
+    <string name="cancel">Cancel</string>
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qr_image_view">qr image view</string>
+    <string name="balance">Balance</string>
+    <string name="send_payment_request">Send Payment Request</string>
+    <string name="copy_address">Copy Address</string>
+    <string name="address_copied">ADDRESS COPIED!</string>
+    <string name="current_selected_mosaic">current selected mosaic</string>
+    <string name="view_on_explorer">View on explorer</string>
+    <string name="enter_wallet_address">Enter wallet address</string>
+    <string name="dropdown_indicator">dropdown indicator</string>
+    <string name="next">Next</string>
+    <string name="create_new_wallet_intro"><annotation font="source_sans_pro_bold">Send, receive, &amp; manage</annotation>\n<annotation font="source_sans_pro_light">your cryptocurrencies built on NEM</annotation></string>
+    <string name="transaction_id">Transaction ID:</string>
+    <string name="camera_permission_request">Please allow access to scan QR code.</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="unsuccesful_scan">Scan unsuccessful, please try again.</string>
+    <string name="implement_fragment_listener">must implement fragment listener</string>
+    <string name="you_are_sending_to">You are sending&lt;br>&lt;b>%s&lt;/b> %s to:</string>
+    <string name="message_optional">Message (Optional):</string>
+    <string name="change">Change</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="point_and_scan">Point and Scan</string>
+    <string name="qr_code_overlay">QR Code overlay</string>
+    <string name="enter_amount_to_send">Enter an amount to send.</string>
+    <string name="name_and_password_title">Enter a wallet <annotation font="source_sans_pro_bold">account\nname </annotation> and <annotation font="source_sans_pro_bold">password</annotation></string>
+    <string name="enter_private_key_title">Enter your <annotation font="source_sans_pro_bold">private key </annotation> for the wallet you want to import</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="send_backup">Send me my backup file</string>
+    <string name="type_email">Type email</string>
+    <string name="wallet_backup_intro">Meteor is fully decentralized and <annotation font="source_sans_pro_bold">does not store any of your data.</annotation>\n\n<small>Therefore we want to make sure you have a backup of your own account.</small></string>
+    <string name="back_up_my_wallet">Back up my wallet</string>
+    <string name="do_this_later">I\'ll do this later</string>
+    <string name="delete_wallet">Delete Wallet</string>
+    <string name="email_sent_title_txt">An email has been sent to</string>
+    <string name="email_sent_title_txt_2">This contains a QR code that you can use to re-import your wallet if needed.</string>
+    <string name="wallet_account_name">wallet account name</string>
+    <string name="password">password</string>
+    <string name="homescreen_mosaic_name_and_ticker">%s %s</string>
+    <string name="mosaic_name_and_amount">%s (%s)</string>
+    <string name="use_qr_code">Use QR Code</string>
+    <string name="use_private_key">Use Private Key</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+
+</resources>

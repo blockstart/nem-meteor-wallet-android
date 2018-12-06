@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4491EB</color>
+    <color name="colorPrimaryDark">#4491EB</color>
+    <color name="colorAccent">#4491EB</color>
+
+    <color name="blockGreen">#69D2A9</color>
+    <color name="blockRed">#DB5252</color>
+    <color name="blockOrange">#F7A800</color>
+    <color name="blockBlue">#4491eb</color>
+    <color name="blockGray">#f1f3fa</color>
+    <color name="blockDarkGrayText">#434343</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_dark_transaprent">#1f797979</color>
+    <color name="rocketBgColor">#293c4b</color>
+    <color name="fifty_alpha_white">#80ffffff</color>
+</resources>

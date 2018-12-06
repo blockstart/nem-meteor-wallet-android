@@ -1,0 +1,3 @@
+[submodule "nem-meteor-wallet-api"]
+	path = nem-meteor-wallet-api
+	url = git@github.com:blockstart/nem-meteor-wallet-api.git
